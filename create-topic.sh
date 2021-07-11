@@ -1,0 +1,1 @@
+docker-compose exec broker kafka-topics --bootstrap-server localhost:9092 --create --replication-factor 1 --topic document.notification-v1
