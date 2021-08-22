@@ -9,11 +9,13 @@
     "build": "tsc -p .",
     "admin": "node src/admin.js",
     "producer": "node src/producer.js",
-    "consumer": "node src/consumer.js"
+    "consumer": "node src/consumer.js",
+    "schemaRegistry": "node src/schemaRegistry.js"
   },
   "author": "Do Hoang Huy",
   "license": "ISC",
   "dependencies": {
+    "@kafkajs/confluent-schema-registry": "^3.0.1",
     "express": "^4.17.1",
     "kafkajs": "^1.15.0"
   },
